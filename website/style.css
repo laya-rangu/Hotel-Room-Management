@@ -1,0 +1,155 @@
+*{
+    box-sizing:border-box;
+    }
+ body{
+   margin:0;
+   background-color:#b8431f;
+   }
+   nav{
+     background:white;
+     width:100%;
+     overflow:auto;
+     }
+   ul{
+      margin:0;
+      padding:0;
+      list-style:none;
+      }
+   li{
+        float:left;
+     }
+   nav a{
+     width:280px;
+     display:block;
+     text-decoration:none;
+     text-align:center;
+     background:#594848;
+     font-size:17px;
+     color:white;
+     padding:20px 10px;
+     font-family:Arial;
+     }
+   nav a:hover{
+     background:skyblue;
+     color:black;
+     }
+ .title{
+    color: #11abed;
+    text-align: underline;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    }
+ .images{
+     max-width:1200px;
+     margin:auto;
+     background:#f2f2f2;
+     overflow:auto;
+     margin-top: 100px;
+     }
+ .photos{
+    margin:5px;
+    border:1px solid black;
+    float:left;
+    width:390px;
+    margin-top:100px;
+     }
+ .photos img{
+     width:100%;
+     height:90%;
+     }
+ .desc{
+     padding:15px;
+     text-align:center;
+     }
+ .container{
+   background-color: white;
+   margin: 10px;
+   
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   }
+ .container-item{
+  background-color: orange;
+  color : black;
+  font-size : 25px;
+  text-align :center;
+  width:100px;
+  line-height:50px;
+  margin:10px
+  }
+  
+ .booking{
+  background-color:white;
+  margin:10px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  }
+  .booking-details{
+  background-color:lightpink;
+  color:white;
+  font-size:15px;
+  text-align:center;
+  width:70px;
+  line-height:40px;
+  margin:10px;
+  }
+  #currentTime{
+  font-size:25px;
+  font-style:italic;
+  text-align:center;
+  color:black;
+  }
+
+  
+  .laya{
+    color:#edc111;
+    text-align:center;
+    font-size:30px;
+    font-style:normal;
+  }
+  .imagecontainer{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+
+  }
+  .bottom{
+    max-width:1200px;
+    margin:auto;
+    background:#f2f2f2;
+    overflow:auto;
+    margin-top: 100px;
+  }
+  .chikki{
+    margin:5px;
+    border:1px solid black;
+    margin-top:100px;
+  }
+  .nani{
+    color:#edc111;
+    text-align:center;
+    font-size:30px;
+    font-style:normal;
+  }
+  .text-block{
+    position: absolute;
+    bottom:20px;
+    right:20px;
+    padding-left:20px;
+    padding-right:20px;
+  }
+  .end{
+    margin-top:50px;
+    color:#edc111;
+    text-align:center;
+    font-size:30px;
+    font-style:normal;
+  }
+  .button{
+    margin-left: 600px;
+  }
